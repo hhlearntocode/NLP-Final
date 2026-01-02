@@ -1,0 +1,144 @@
+================================================================================
+WER ANALYSIS REPORT
+================================================================================
+
+
+================================================================================
+MODEL: F5-TTS-b
+================================================================================
+
+BASIC STATISTICS:
+----------------------------------------
+  Sample Size:        1000
+  Mean WER:           156.35%
+  Median WER:         100.00%
+  Std Deviation:      197.65%
+  Min WER:            85.71%
+  Max WER:            4600.00%
+  Range:              4514.29%
+
+DISTRIBUTION:
+----------------------------------------
+  Q1 (25th percentile):   100.00%
+  Q3 (75th percentile):   150.00%
+  IQR:                    50.00%
+  5th percentile:         100.00%
+  95th percentile:        350.00%
+  Skewness:               13.7607
+  Kurtosis:               273.0318
+
+RELIABILITY METRICS:
+----------------------------------------
+  Coefficient of Variation (CV): 126.42%
+  Standard Error of Mean (SEM):  6.2504
+  95% Confidence Interval:       [144.10%, 168.60%]
+
+PERFORMANCE BREAKDOWN:
+----------------------------------------
+  Excellent (WER ≤ 10%):     0 samples (  0.0%)
+  Good (10% < WER ≤ 20%):    0 samples (  0.0%)
+  Fair (20% < WER ≤ 30%):    0 samples (  0.0%)
+  Poor (WER > 30%):       1000 samples (100.0%)
+
+INTERPRETATION:
+----------------------------------------
+  CV: High variability - inconsistent performance
+  Skewness: Right-skewed - more samples with low WER
+  Overall Rating: POOR
+
+
+================================================================================
+MODEL: XTTS
+================================================================================
+
+BASIC STATISTICS:
+----------------------------------------
+  Sample Size:        1000
+  Mean WER:           75.79%
+  Median WER:         62.50%
+  Std Deviation:      79.67%
+  Min WER:            4.35%
+  Max WER:            1400.00%
+  Range:              1395.65%
+
+DISTRIBUTION:
+----------------------------------------
+  Q1 (25th percentile):   39.07%
+  Q3 (75th percentile):   100.00%
+  IQR:                    60.93%
+  5th percentile:         23.08%
+  95th percentile:        140.50%
+  Skewness:               9.5304
+  Kurtosis:               136.5222
+
+RELIABILITY METRICS:
+----------------------------------------
+  Coefficient of Variation (CV): 105.12%
+  Standard Error of Mean (SEM):  2.5193
+  95% Confidence Interval:       [70.85%, 80.72%]
+
+PERFORMANCE BREAKDOWN:
+----------------------------------------
+  Excellent (WER ≤ 10%):     3 samples (  0.3%)
+  Good (10% < WER ≤ 20%):   25 samples (  2.5%)
+  Fair (20% < WER ≤ 30%):   94 samples (  9.4%)
+  Poor (WER > 30%):        878 samples ( 87.8%)
+
+INTERPRETATION:
+----------------------------------------
+  CV: High variability - inconsistent performance
+  Skewness: Right-skewed - more samples with low WER
+  Overall Rating: POOR
+
+
+================================================================================
+MODEL: F5-TTS-o
+================================================================================
+
+BASIC STATISTICS:
+----------------------------------------
+  Sample Size:        1000
+  Mean WER:           167.69%
+  Median WER:         100.00%
+  Std Deviation:      175.76%
+  Min WER:            66.67%
+  Max WER:            2900.00%
+  Range:              2833.33%
+
+DISTRIBUTION:
+----------------------------------------
+  Q1 (25th percentile):   100.00%
+  Q3 (75th percentile):   166.67%
+  IQR:                    66.67%
+  5th percentile:         95.99%
+  95th percentile:        400.00%
+  Skewness:               7.0464
+  Kurtosis:               76.7769
+
+RELIABILITY METRICS:
+----------------------------------------
+  Coefficient of Variation (CV): 104.81%
+  Standard Error of Mean (SEM):  5.5581
+  95% Confidence Interval:       [156.80%, 178.59%]
+
+PERFORMANCE BREAKDOWN:
+----------------------------------------
+  Excellent (WER ≤ 10%):     0 samples (  0.0%)
+  Good (10% < WER ≤ 20%):    0 samples (  0.0%)
+  Fair (20% < WER ≤ 30%):    0 samples (  0.0%)
+  Poor (WER > 30%):       1000 samples (100.0%)
+
+INTERPRETATION:
+----------------------------------------
+  CV: High variability - inconsistent performance
+  Skewness: Right-skewed - more samples with low WER
+  Overall Rating: POOR
+
+
+================================================================================
+MODEL COMPARISON (Ranked by Mean WER)
+================================================================================
+
+1. XTTS                 - Mean WER:  75.79% (±79.67%)
+2. F5-TTS-b             - Mean WER: 156.35% (±197.65%)
+3. F5-TTS-o             - Mean WER: 167.69% (±175.76%)

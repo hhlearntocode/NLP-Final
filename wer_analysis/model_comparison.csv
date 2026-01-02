@@ -1,0 +1,4 @@
+model_name,count,mean,median,std,min,max,variance,range,q1,q3,iqr,p5,p95,skewness,kurtosis,cv,sem,ci_95_lower,ci_95_upper,excellent_count,good_count,fair_count,poor_count,excellent_pct,good_pct,fair_pct,poor_pct,csv_file
+F5-TTS-b,1000,156.348,100.0,197.6539,85.71,4600.0,39067.0622,4514.29,100.0,150.0,50.0,100.0,350.0,13.7607,273.0318,126.4192,6.2504,144.0972,168.5987,0,0,0,1000,0.0,0.0,0.0,100.0,/Users/leonard/NLP-CK/wer_results/F5-TTS-b_wer.csv
+XTTS,1000,75.787,62.5,79.6686,4.35,1400.0,6347.0925,1395.65,39.07,100.0,60.93,23.08,140.5,9.5304,136.5222,105.1218,2.5193,70.849,80.7249,3,25,94,878,0.3,2.5,9.4,87.8,/Users/leonard/NLP-CK/wer_results/XTTS_wer.csv
+F5-TTS-o,1000,167.6929,100.0,175.7612,66.67,2900.0,30892.0044,2833.33,100.0,166.67,66.67,95.987,400.0,7.0464,76.7769,104.8114,5.5581,156.7991,178.5867,0,0,0,1000,0.0,0.0,0.0,100.0,/Users/leonard/NLP-CK/wer_results/F5-TTS-o_wer.csv
