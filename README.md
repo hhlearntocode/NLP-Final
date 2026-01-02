@@ -70,8 +70,8 @@ Output:
 
 ## Notebooks
 
-- [EVAL]_XTTS.ipynb: Pipeline XTTS - Text → Audio → Whisper → Transcript
-- eval-f5tts.ipynb: Pipeline F5-TTS - Text → Audio → Whisper → Transcript
+- [EVAL] XTTS.ipynb: Pipeline XTTS - Text → Audio → Whisper → Transcript
+- [EVAL] F5-TTS.ipynb.ipynb: Pipeline F5-TTS - Text → Audio → Whisper → Transcript
 
 ## Pipeline đánh giá
 
